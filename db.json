@@ -1,0 +1,105 @@
+{
+    "got" : {
+        "characters" : [
+            {
+                "id" : 1,
+                "name" : "Eddard (Ned) Stark",
+                "gender" : "male",
+                "Family" : "House Stark",
+                "Spouse" : "Catelyn Tully ",
+                "Children" : ["Robb Stark", " Sansa Stark", "Arya Stark", "Bran Stark", "Rickon Stark", "Theon Greyjoy (foster Son)", "Jon Snow (illigitamte)"],
+                "Siblings" : ["Brandon Stark", "Lyanna Stark", "Benjen Stark"],
+                "Origin" : "Winterfell",
+                "title" :  ["Lord Of Winterfell", "Warden Of The North"],
+                "Culture" : "Northern",
+                "Religion" : "Old Gods of The Forest"
+            },
+            {
+                "id" : 2,
+                "name" : "Catelyn (Tully) Stark",
+                "gender" : "Female",
+                "Culture" : "Andal",
+                "Family" : ["House Stark", "House Tully"],
+                "Spouse" : "Eddard Stark",
+                "Children" : ["Robb Stark", " Sansa Stark", "Arya Stark", "Bran Stark", "Rickon Stark" ],
+                "Siblings" : ["Lysa Tully", "Edmure Tully"],
+                "Origin" : "Winterfell",
+                "title" :  "Lady Of Winterfell",
+                "Religion" : "Faith of the Seven"
+
+            },
+            {
+                "id" : 3,
+                "name" : "Robb Stark",
+                "gender" : "Male",
+                "Culture" : "Northern",
+                "Family" : ["House Stark"],
+                "Spouse" : "Talisa Maegyr",
+                "Children" : "N/A",
+                "Siblings" : [" Sansa Stark", "Arya Stark", "Bran Stark", "Rickon Stark" ],
+                "Origin" : "Winterfell",
+                "title" :  ["Lord of Winterfell", "King of the North"],
+                "Religion" : "Faith of the Seven"
+
+            },
+            {
+                "id" : 4,
+                "name" : "Sansa Stark",
+                "gender" : "Female",
+                "Culture" : "Northern",
+                "Family" : ["House Stark"],
+                "Spouse" : ["Tyrion Lannister", "Ramsay Bolton"],
+                "Children" :  "N/A",
+                "Siblings" : ["Robb Stark",  "Arya Stark", "Bran Stark", "Rickon Stark"],
+                "Origin" : "Winterfell",
+                "title" :  ["Princess","Lady of Winterfell", "Queen of the North"],
+                "Religion" : "Faith of the Seven"
+                
+            },
+            {
+                "id" : 5,
+                "name" : "Arya Stark",
+                "gender" : "Female",
+                "Culture" : "Northern",
+                "Family" : ["House Stark"],
+                "Spouse" : "N/A",
+                "Children" :  "N/A",
+                "Siblings" : ["Robb Stark", " Sansa Stark",  "Bran Stark", "Rickon Stark"],
+                "Origin" : "Winterfell",
+                "title" :  ["Princess","Mercy"],
+                "Religion" : ["Faith of the Seven", "Old Gods of The Forest", "Many-Faced God"],
+                "Affiliation" : ""
+                
+            },
+            {
+                "id" : 6,
+                "name" : "Brandon Stark",
+                "gender" : "Male",
+                "Culture" : "Northern",
+                "Family" : ["House Stark"],
+                "Spouse" : "N/A",
+                "Children" : "N/A",
+                "Siblings" : [ "Robb Stark"," Sansa Stark", "Arya Stark",  "Rickon Stark" ],
+                "Origin" : "Winterfell",
+                "title" :  ["King of the Andals and the First Men", "Lord Of The Seven Kingdoms", "Protector of the Realm", "The Three Eyed Raven"],
+                "Religion" : "Old Gods of The Forest"
+
+            },
+            {
+                "id" : 7,
+                "name" : "Jon Snow (illigitamte)",
+                "gender" : "Male",
+                "Culture" : "Northern",
+                "Family" : ["House Stark"],
+                "Spouse" : "N/A",
+                "Lover" : ["Ygritt", "Daenerys Targaryen"],
+                "Children" : "N/A",
+                "Siblings" : [" Sansa Stark", "Arya Stark",  "Rickon Stark" ],
+                "Origin" : "Winterfell",
+                "title" :  ["998th Lord Commander Of The Night's Watch", "King in the North", "The White Wolf"],
+                "Religion" : "Old Gods of The Forest",
+                "Affiliation" : "Night's watch"
+            },
+        ]
+    }
+}
