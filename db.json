@@ -1,105 +1,303 @@
+
 {
-    "got" : {
-        "characters" : [
-            {
-                "id" : 1,
-                "name" : "Eddard (Ned) Stark",
-                "gender" : "male",
-                "Family" : "House Stark",
-                "Spouse" : "Catelyn Tully ",
-                "Children" : ["Robb Stark", " Sansa Stark", "Arya Stark", "Bran Stark", "Rickon Stark", "Theon Greyjoy (foster Son)", "Jon Snow (illigitamte)"],
-                "Siblings" : ["Brandon Stark", "Lyanna Stark", "Benjen Stark"],
-                "Origin" : "Winterfell",
-                "title" :  ["Lord Of Winterfell", "Warden Of The North"],
-                "Culture" : "Northern",
-                "Religion" : "Old Gods of The Forest"
-            },
-            {
-                "id" : 2,
-                "name" : "Catelyn (Tully) Stark",
-                "gender" : "Female",
-                "Culture" : "Andal",
-                "Family" : ["House Stark", "House Tully"],
-                "Spouse" : "Eddard Stark",
-                "Children" : ["Robb Stark", " Sansa Stark", "Arya Stark", "Bran Stark", "Rickon Stark" ],
-                "Siblings" : ["Lysa Tully", "Edmure Tully"],
-                "Origin" : "Winterfell",
-                "title" :  "Lady Of Winterfell",
-                "Religion" : "Faith of the Seven"
+  "got": {
+    "characters": [
+      {
+        "id": 1,
+        "name": "Eddard (Ned) Stark",
+        "gender": "male",
+        "Family": "House Stark",
+        "Spouse": "Catelyn Tully ",
+        "Children": [
+          "Robb Stark",
+          " Sansa Stark",
+          "Arya Stark",
+          "Bran Stark",
+          "Rickon Stark",
+          "Theon Greyjoy (foster Son)",
+          "Jon Snow (illigitamte)"
+        ],
+        "Siblings": ["Brandon Stark", "Lyanna Stark", "Benjen Stark"],
+        "Origin": "Winterfell",
+        "title": ["Lord Of Winterfell", "Warden Of The North"],
+        "Culture": "Northern",
+        "Religion": "Old Gods of The Forest"
+      },
+      {
+        "id": 2,
+        "name": "Catelyn (Tully) Stark",
+        "gender": "Female",
+        "Culture": "Andal",
+        "Family": ["House Stark", "House Tully"],
+        "Spouse": "Eddard Stark",
+        "Children": [
+          "Robb Stark",
+          " Sansa Stark",
+          "Arya Stark",
+          "Bran Stark",
+          "Rickon Stark"
+        ],
+        "Siblings": ["Lysa Tully", "Edmure Tully"],
+        "Origin": "Winterfell",
+        "title": "Lady Of Winterfell",
+        "Religion": "Faith of the Seven"
+      },
+      {
+        "id": 3,
+        "name": "Robb Stark",
+        "gender": "Male",
+        "Culture": "Northern",
+        "Family": ["House Stark"],
+        "Spouse": "Talisa Maegyr",
+        "Children": "N/A",
+        "Siblings": [
+          " Sansa Stark",
+          "Arya Stark",
+          "Bran Stark",
+          "Rickon Stark"
+        ],
+        "Origin": "Winterfell",
+        "title": ["Lord of Winterfell", "King of the North"],
+        "Religion": "Faith of the Seven"
+      },
+      {
+        "id": 4,
+        "name": "Sansa Stark",
+        "gender": "Female",
+        "Culture": "Northern",
+        "Family": ["House Stark"],
+        "Spouse": ["Tyrion Lannister", "Ramsay Bolton"],
+        "Children": "N/A",
+        "Siblings": ["Robb Stark", "Arya Stark", "Bran Stark", "Rickon Stark"],
+        "Origin": "Winterfell",
+        "title": ["Princess", "Lady of Winterfell", "Queen of the North"],
+        "Religion": "Faith of the Seven"
+      },
+      {
+        "id": 5,
+        "name": "Arya Stark",
+        "gender": "Female",
+        "Culture": "Northern",
+        "Family": ["House Stark"],
+        "Spouse": "N/A",
+        "Children": "N/A",
+        "Siblings": [
+          "Robb Stark",
+          " Sansa Stark",
+          "Bran Stark",
+          "Rickon Stark"
+        ],
+        "Origin": "Winterfell",
+        "title": ["Princess", "Mercy"],
+        "Religion": [
+          "Faith of the Seven",
+          "Old Gods of The Forest",
+          "Many-Faced God"
+        ],
+        "Affiliation": ""
+      },
+      {
+        "id": 6,
+        "name": "Brandon Stark",
+        "gender": "Male",
+        "Culture": "Northern",
+        "Family": ["House Stark"],
+        "Spouse": "N/A",
+        "Children": "N/A",
+        "Siblings": [
+          "Robb Stark",
+          " Sansa Stark",
+          "Arya Stark",
+          "Rickon Stark"
+        ],
+        "Origin": "Winterfell",
+        "title": [
+          "King of the Andals and the First Men",
+          "Lord Of The Seven Kingdoms",
+          "Protector of the Realm",
+          "The Three Eyed Raven"
+        ],
+        "Religion": "Old Gods of The Forest"
+      },
+      {
+        "id": 7,
+        "name": "Jon Snow (illigitamte)",
+        "gender": "Male",
+        "Culture": "Northern",
+        "Family": ["House Stark"],
+        "Spouse": "N/A",
+        "Lover": ["Ygritt", "Daenerys Targaryen"],
+        "Children": "N/A",
+        "Siblings": [" Sansa Stark", "Arya Stark", "Rickon Stark"],
+        "Origin": "Winterfell",
+        "title": [
+          "998th Lord Commander Of The Night's Watch",
+          "King in the North",
+          "The White Wolf"
+        ],
+        "Religion": "Old Gods of The Forest",
+        "Affiliation": "Night's watch"
+      },
+      {
+        "id": 8,
+        "name": "Cersei Baratheon",
+        "gender": "Female",
+        "Culture": "Andal",
+        "Family": ["House Baratheon", "House Lannister"],
+        "Spouse": "Robert I Baratheon",
+        "Lover": ["Jamie Lannister", "Lancel Lannister", "Euron Greyjoy"],
+        "Children": [
+          "Joffery I Baratheon",
+          "Myrcella Baratheon",
+          "Tommen I Baratheon"
+        ],
+        "Siblings": ["Jamie Lannister", "Tyrion Lannister"],
+        "Origin": "Casterly Rock",
+        "title": [
+          "Queen Mother",
+          "LAdy Of Casterly Rock",
+          "Queen Of The Andals and The First Men Protector of the Seven Kingdoms"
+        ],
+        "Religion": "Faith of the Seven",
+        "Affiliation": "N/A"
+      },
+      {
+        "id": 9,
+        "name": "Joffery I Baratheon",
+        "gender": "Male",
+        "Culture": "Andal",
+        "Family": "House Baratheon",
+        "Spouse": "Margaery Tyrell",
+        "Lover": "N/A",
+        "Children": "N/A",
+        "Siblings": ["Myrcella Baratheon", "Tommen I Baratheon"],
+        "Origin": "King's Landing",
+        "title": [
+          "King Of The Andals and The First Men Protector of the Seven Kingdoms",
+          "The False King"
+        ],
+        "Religion": "Faith of the Seven",
+        "Affiliation": "N/A"
+      },
+      {
+        "id": 10,
+        "name": "Tyrion Lannister",
+        "gender": "Male",
+        "Culture": "Andal",
+        "Family": "House Lannister",
+        "Spouse": ["Tysha (annuled)", "Sansa Stark"],
+        "Lover": "Shae",
+        "Children": "N/A",
+        "Siblings": ["Jamie Lannister", "Cersei Lannister"],
+        "Origin": "Casterly Rock",
+        "title": [
+          "Acting Hand of the King",
+          "Master of Coin",
+          "Hand of The Queen",
+          "Lord Of Casterly Rock",
+          "Warden of the West"
+        ],
+        "Religion": "Faith of the Seven",
+        "Affiliation": ["House  Baratheon", "House Targaryen"]
+      },
+      {
+        "id": 11,
+        "name": "Daenerys I Targaryen",
+        "gender": "Female",
+        "Culture": "Valyrian",
+        "Family": "House Targaryen",
+        "Spouse": "Drogo",
+        "Lover": ["Daario Naharis", "Jon Snow"],
+        "Children": "Rhaego(stillborn)",
+        "Siblings": ["Rhaegar Targaryen", "Viserys Targaryen"],
+        "Origin": "N/A",
+        "title": [
+          "Princess of Dragonstone",
+          "Queen of Meereen",
+          "Mother of Dragons",
+          "Breaker of Chains",
+          "Khalessi of the Great Grass Sea"
+        ],
+        "Religion": "Faith of the Seven",
+        "Affiliation": "N/A"
+      },
 
-            },
-            {
-                "id" : 3,
-                "name" : "Robb Stark",
-                "gender" : "Male",
-                "Culture" : "Northern",
-                "Family" : ["House Stark"],
-                "Spouse" : "Talisa Maegyr",
-                "Children" : "N/A",
-                "Siblings" : [" Sansa Stark", "Arya Stark", "Bran Stark", "Rickon Stark" ],
-                "Origin" : "Winterfell",
-                "title" :  ["Lord of Winterfell", "King of the North"],
-                "Religion" : "Faith of the Seven"
-
-            },
-            {
-                "id" : 4,
-                "name" : "Sansa Stark",
-                "gender" : "Female",
-                "Culture" : "Northern",
-                "Family" : ["House Stark"],
-                "Spouse" : ["Tyrion Lannister", "Ramsay Bolton"],
-                "Children" :  "N/A",
-                "Siblings" : ["Robb Stark",  "Arya Stark", "Bran Stark", "Rickon Stark"],
-                "Origin" : "Winterfell",
-                "title" :  ["Princess","Lady of Winterfell", "Queen of the North"],
-                "Religion" : "Faith of the Seven"
-                
-            },
-            {
-                "id" : 5,
-                "name" : "Arya Stark",
-                "gender" : "Female",
-                "Culture" : "Northern",
-                "Family" : ["House Stark"],
-                "Spouse" : "N/A",
-                "Children" :  "N/A",
-                "Siblings" : ["Robb Stark", " Sansa Stark",  "Bran Stark", "Rickon Stark"],
-                "Origin" : "Winterfell",
-                "title" :  ["Princess","Mercy"],
-                "Religion" : ["Faith of the Seven", "Old Gods of The Forest", "Many-Faced God"],
-                "Affiliation" : ""
-                
-            },
-            {
-                "id" : 6,
-                "name" : "Brandon Stark",
-                "gender" : "Male",
-                "Culture" : "Northern",
-                "Family" : ["House Stark"],
-                "Spouse" : "N/A",
-                "Children" : "N/A",
-                "Siblings" : [ "Robb Stark"," Sansa Stark", "Arya Stark",  "Rickon Stark" ],
-                "Origin" : "Winterfell",
-                "title" :  ["King of the Andals and the First Men", "Lord Of The Seven Kingdoms", "Protector of the Realm", "The Three Eyed Raven"],
-                "Religion" : "Old Gods of The Forest"
-
-            },
-            {
-                "id" : 7,
-                "name" : "Jon Snow (illigitamte)",
-                "gender" : "Male",
-                "Culture" : "Northern",
-                "Family" : ["House Stark"],
-                "Spouse" : "N/A",
-                "Lover" : ["Ygritt", "Daenerys Targaryen"],
-                "Children" : "N/A",
-                "Siblings" : [" Sansa Stark", "Arya Stark",  "Rickon Stark" ],
-                "Origin" : "Winterfell",
-                "title" :  ["998th Lord Commander Of The Night's Watch", "King in the North", "The White Wolf"],
-                "Religion" : "Old Gods of The Forest",
-                "Affiliation" : "Night's watch"
-            },
-        ]
-    }
+      {
+        "id": 12,
+        "name": "Robert Baratheon",
+        "gender": "Male",
+        "Culture": "Andal",
+        "Family": "House Baratheon",
+        "Spouse": "Cersei Lannister",
+        "Lover": "Nemerous",
+        "Children": [
+          "Gendry Baratheon(Bastard)",
+          "Joffery I Baratheon(Fathered by Jamie Lannister)",
+          "Myrcella Baratheon(Fathered by Jamie Lannister)",
+          "Tommen I Baratheon(Fathered by Jamie Lannister)"
+        ],
+        "Siblings": ["Stannis Baratheon", "Renly Baratheon"],
+        "Origin": "N/A",
+        "title": [
+          "Princess of Dragonstone",
+          "Queen of Meereen",
+          "Mother of Dragons",
+          "Breaker of Chains",
+          "Khalessi of the Great Grass Sea"
+        ],
+        "Religion": "Faith of the Seven",
+        "Affiliation": ["House Arryn", "House Targaryen( formerly, Vassel)"]
+      }
+    ],
+    "Westeros(Regions)": [
+      {
+        "id": 1,
+        "name": "The North",
+        "Ruled By": "House Stark",
+        "climate": "cold with hard winters and mild snows",
+        "size": " largest region",
+        "population": "small and spread out"
+      },
+      {
+        "id": 2,
+        "name": "The Vale Of Arryn",
+        "Ruled By": "House Arryn "
+      },
+      {
+        "id": 3,
+        "name": "The Riverlands",
+        "Ruled By": "House Tully "
+      },
+      {
+        "id": 4,
+        "name": "The Iron Islands",
+        "Ruled By": "House Greyjoy "
+      },
+      {
+        "id": 5,
+        "name": "The WesterLands",
+        "Ruled By": "House Lannister "
+      },
+      {
+        "id": 6,
+        "name": "The CrownLands",
+        "Ruled By": "The King on the Iron Throne"
+      },
+      {
+        "id": 7,
+        "name": "The Reach",
+        "Ruled By": "House Tyrell"
+      },
+      {
+        "id": 8,
+        "name": "The StormLands",
+        "Ruled By": "House Baratheon"
+      },
+      {
+        "id": 9,
+        "name": "Dorne",
+        "Ruled By": "House Martell"
+      }
+    ]
+  }
 }
