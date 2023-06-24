@@ -46,8 +46,29 @@ export const CharacterCard = (props) => {
                 <p>{props.siblings}</p>
                 <p>{props.religion}</p>
                 <p>{props.title}</p>
+                <p>{props.affiliation}</p>
             </div>
-
+            <div className="cardBottom">
+                            <Link
+                                to={`/character_description/` + character.id}
+                                className="btn btn-light text-dark"
+                            >
+                                Learn More!
+                            </Link>
+                            <button
+                                onClick={() => {
+                                    actions.addFavorite(character);
+                                }}
+                                className="favorites-button"
+                                style={{
+                                    background: "transparent",
+                                    border: "none",
+                                    outline: "none",
+                                  }}
+                            >
+                                ❤️️
+                            </button>
+                        </div>
         </div>
        </div>
     )
